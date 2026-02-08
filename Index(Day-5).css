@@ -1,0 +1,118 @@
+/* *{
+    color:blue;
+    background-color: brown;
+}
+h4{
+    color:aqua;
+}
+#login{
+    background-color: deeppink;
+    color: black;
+}
+#signup{
+    color: blue;
+    background-color: rgb(81, 230, 12)
+    
+}
+.a{
+    color:dodgerblue;
+    background-color: aliceblue;
+}
+.userbtn{
+    color:greenyellow;
+}
+#Searchbtn{
+    color: chartreuse;
+    background-color: black;
+} */
+ *{
+    font-family: 'Courier New';
+ }
+ h4{
+    font-size: 35px;
+    color:#1b74e4;
+ }
+ .userbtn{
+    font-size: 20px;
+    background-color: rgb(8, 237, 23);
+    color: black;
+}
+.search{
+    font-size: 80px;
+}
+
+
+ #Searchbtn{
+    font-size: 20px;
+    background-color: black;
+     color: white;
+
+ }
+ nav ,ul, li, a{
+    color:blue;
+ }
+ p + h3{
+    text-decoration:underline;
+ }
+
+ input[type="text"]{
+    color:chartreuse;
+ }
+ input[type="password"]{
+    color:blue;
+ }
+ input[type="Number"]{
+    color:aqua;
+ }
+ input[input="Time"]{
+    color:aliceblue;
+ }
+ input[type="clock"]{
+    color:cyan;
+ }
+ button:hover{
+    background-color: rgb(56, 250, 3);
+    color: red;
+ }
+ p+h3:hover{
+    
+    color:yellow;
+    text-decoration: overline;
+ }
+  h4:active{
+    color: chocolate;
+    background-color: burlywood;
+ }
+  p1:active{
+    color: chocolate;
+    background-color: burlywood;
+ }
+ input[type="radio"]:checked+label{
+    color:red;
+    font-weight: bold;
+ }
+ .post nth_of_type(2n) {
+    background-color:red;
+ }
+
+ 
+ h5::first-letter{
+    font-size: 20px;;
+    color:green;
+ }
+ p::first-line{
+    color: blue;
+ }
+
+ P::selection{
+    background-color: rgb(242, 7, 109);
+ }
+ div{
+    background-color: #1b74e4;
+ }
+ input{
+    background-color: inherit;
+ }
+ button{
+    background-color: chartreuse;
+ }

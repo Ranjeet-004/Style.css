@@ -1,0 +1,64 @@
+h2{
+    color:brown;
+}
+h3{
+    color:blue;
+}
+Button{
+    color:blue;
+}
+h4{
+  background-color:chartreuse;
+}
+Button1{
+    Background-color:rgb(220, 26, 58);
+}
+
+P{
+    color:rgb(0,0,255);
+}
+i{
+  background-color:color:rgb(0,255,0);
+}
+p1{
+    color:#ff0000;
+}
+p2{ 
+    background-color:#ff00ff;
+}
+h5{
+    text-align:left;
+}
+p3{
+    font-wight:normal;
+}
+i2{
+    font-weight:lighter;
+}
+i{
+    font-weight:100;
+}
+p4{
+    text-decoration:line_through;
+}
+i3{
+    text-decoration:line-through;
+}
+i4{
+    text-align:center;
+    text-decoration:Underline;
+    letter-spacing:5px;
+    line-height:noraml; 
+}
+i5{
+    text-align:justify;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-family:arial;
+}
+i5{
+    text-align:center;
+    color:yellow;
+    background-color: #ffffff;
+}
