@@ -1,0 +1,10 @@
+/* Background Image */
+div{
+    width:600px;
+    height:600px;
+    background-color: rgb(93, 92, 95);
+    margin:10px auto;
+    background-image:url("/pexels-eberhardgross-443446.jpg");
+    background-size:cover;
+    color:white;
+}

@@ -1,0 +1,118 @@
+ 
+/* .box{
+ height:200px;
+ width:300px;
+ background-color:pink;
+
+animation-name:colorAnimate;
+animation-duration:2s;
+animation-timing-function:ease-in;
+animation-delay:0;
+animation-iteration-count:3;
+animation-direction:normal;
+}
+@keyframes colorAnimate{
+
+    from{background-color:pink;}
+    to{background-color:blue;}
+ }
+ 
+
+@keyframes fontAnimate{
+    from{
+        font-size:20px;
+    }
+    to{
+        font-size:40px;
+    }
+
+} */
+
+
+ /* .box{
+ height:200px;
+ width:300px;
+ background-color:pink;
+
+ / animation-name:colorAnimate;
+animation-duration:2s;
+animation-timing-function:ease-in;
+animation-delay:0;
+animation-iteration-count:3;
+animation-direction:normal;
+} /
+animation:widthAnimate 3s ease-in 5 normal;
+}
+@keyframes widthAnimate{
+from{
+    width:10px;
+      background-color: blueviolet;
+}
+to{
+    width:400px;
+    background-color: green;
+    border-redius:15px;
+}
+}
+
+@keyframes fontAnimate{
+    from{
+        font-size:20px;
+    }
+    to{
+        font-size:40px;
+    }
+}
+
+@keyframes colorAnimate{
+from{
+    background-color: blueviolet;
+}
+to{
+    background-color: green;
+}
+}
+
+@keyframes fontAnimation{
+    from{
+        font-size:20px;
+    }
+    to{
+        font-size:40px;
+    }
+} */ 
+
+
+.box{
+ height:200px;
+ width:300px;
+ background-color:pink;
+
+  /* animation-name:colorAnimate;
+animation-duration:2s;
+animation-timing-function:ease-in;
+animation-delay:0;
+animation-iteration-count:3;
+animation-direction:normal;
+} / */
+animation: colAnimate 3s ease-in 5 normal;
+}
+@keyframes colAnimate{
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+@keyframes fontAnimation{
+    from{
+        font-size:20px;
+    }
+    to{
+        font-size:40px;
+    }
+}
